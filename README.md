@@ -37,6 +37,6 @@ Launch options:
     -startpage [Number] [Path]*Number
 --Searches for a page to look for in order if it is in a directory. The number is the amount of paths you want to look for.
 
-# Example:
+### Example:
     -startpage 4 index.html index.htm main.hmtl main.htm
     
