@@ -18,14 +18,25 @@ Default launch:
 
 Launch options:
 
+
     -port [Port number]
 --Changes the port it will use
 
+
     -path [Path]
 --Changes the path where the files to serve are located
+
 
     -rpath [Path]
 --Changes the path where the files to server are located relatively to where it is launched
 
 
+    -dirlist [true/false]
+--Shows a list of all files in directory if no startpage found.
 
+    -startpage [Number] [Path]*Number
+--Searches for a page to look for in order if it is in a directory. The number is the amount of paths you want to look for.
+
+# Example:
+    -startpage 4 index.html index.htm main.hmtl main.htm
+    
