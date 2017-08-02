@@ -10,8 +10,8 @@ Running the run.bat file will simply create a webserver on port 80, with the pat
 
 Run.bat launch line:
 
-    `node webserver.js -port 80 -rpath /siteFiles -dirList true -startpage 2 index.html index.htm`
+    node webserver.js -port 80 -rpath /siteFiles -dirList true -startpage 2 index.html index.htm
   
 Default launch:
 
-    `node webserver.js`
+    node webserver.js
