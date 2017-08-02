@@ -15,3 +15,17 @@ Run.bat launch line:
 Default launch:
 
     node webserver.js
+
+Launch options:
+
+    -port [Port number]
+--Changes the port it will use
+
+    -path [Path]
+--Changes the path where the files to serve are located
+
+    -rpath [Path]
+--Changes the path where the files to server are located relatively to where it is launched
+
+
+
